@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { ListPlus } from 'lucide-react';
+import { ListPlus, Info } from 'lucide-react';
 
 export function NavBar() {
   const pathname = usePathname();
@@ -49,6 +49,17 @@ export function NavBar() {
           >
             <ListPlus className="h-4 w-4" />
             Requests
+          </Link>
+          <Link
+            href="/about"
+            className={`px-4 py-2 rounded-full text-sm font-semibold transition-all flex items-center gap-1.5 ${
+              pathname === '/about'
+                ? 'bg-white/20 backdrop-blur-sm'
+                : 'hover:bg-white/10'
+            }`}
+          >
+            <Info className="h-4 w-4" />
+            About
           </Link>
         </nav>
       </div>
