@@ -22,11 +22,11 @@ export default function Home() {
     <main className="max-w-5xl mx-auto px-4 py-10 space-y-8">
       {/* Hero */}
       <div className="text-center space-y-3">
-        <h1 className="text-4xl font-extrabold tracking-tight bg-gradient-to-r from-primary via-chart-5 to-chart-2 bg-clip-text text-transparent">
-          Song Library
+        <h1 className="text-4xl font-extrabold tracking-tight bg-gradient-to-r from-primary via-chart-5 to-chart-3 bg-clip-text text-transparent">
+          🌺 Song Library 🌴
         </h1>
         <p className="text-muted-foreground text-lg">
-          {getAllSongs().length} songs with chords at every level — pick one and start strumming!
+          {getAllSongs().length} songs with chords at every level — grab your uke and strum along!
         </p>
       </div>
 
@@ -43,7 +43,7 @@ export default function Home() {
 
       {songs.length === 0 ? (
         <div className="text-center py-16 space-y-2">
-          <p className="text-4xl">🎵</p>
+          <p className="text-4xl">🌺</p>
           <p className="text-muted-foreground text-lg">
             No songs found. Try a different search or{' '}
             <a href="/requests" className="text-primary font-semibold underline underline-offset-2">

@@ -6,21 +6,21 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Heart } from 'lucide-react';
 
 const ACCENT_COLORS = [
-  'from-pink-400/20 to-purple-400/10',
-  'from-blue-400/20 to-cyan-400/10',
-  'from-amber-400/20 to-orange-400/10',
-  'from-green-400/20 to-teal-400/10',
-  'from-violet-400/20 to-indigo-400/10',
-  'from-rose-400/20 to-red-400/10',
+  'from-orange-400/20 to-rose-300/10',
+  'from-cyan-400/20 to-teal-300/10',
+  'from-amber-300/20 to-yellow-300/10',
+  'from-emerald-400/20 to-green-300/10',
+  'from-orange-300/20 to-amber-300/10',
+  'from-sky-400/20 to-cyan-300/10',
 ];
 
 const BORDER_COLORS = [
-  'hover:border-pink-300',
-  'hover:border-blue-300',
+  'hover:border-orange-300',
+  'hover:border-cyan-300',
   'hover:border-amber-300',
-  'hover:border-green-300',
-  'hover:border-violet-300',
-  'hover:border-rose-300',
+  'hover:border-emerald-300',
+  'hover:border-orange-300',
+  'hover:border-sky-300',
 ];
 
 interface SongCardProps {

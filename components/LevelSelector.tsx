@@ -9,9 +9,9 @@ interface LevelSelectorProps {
 }
 
 const levels: { value: Level; label: string; emoji: string; color: string }[] = [
-  { value: 'easy', label: 'Easy', emoji: '🌱', color: 'bg-green-500 text-white hover:bg-green-600' },
-  { value: 'medium', label: 'Medium', emoji: '🔥', color: 'bg-amber-500 text-white hover:bg-amber-600' },
-  { value: 'advanced', label: 'Advanced', emoji: '⚡', color: 'bg-purple-600 text-white hover:bg-purple-700' },
+  { value: 'easy', label: 'Easy', emoji: '🏝️', color: 'bg-emerald-500 text-white hover:bg-emerald-600' },
+  { value: 'medium', label: 'Medium', emoji: '🌊', color: 'bg-cyan-600 text-white hover:bg-cyan-700' },
+  { value: 'advanced', label: 'Advanced', emoji: '🌋', color: 'bg-orange-600 text-white hover:bg-orange-700' },
 ];
 
 export function LevelSelector({ value, onChange, disabled }: LevelSelectorProps) {

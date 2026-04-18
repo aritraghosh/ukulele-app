@@ -1,4 +1,4 @@
-# Uke Practice
+# StrumAlong
 
 Ukulele chord practice app with a curated library of songs at 3 difficulty levels and community song request voting.
 

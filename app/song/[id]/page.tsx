@@ -29,7 +29,7 @@ export default function SongPage() {
   if (!entry) {
     return (
       <main className="max-w-5xl mx-auto px-4 py-16 text-center space-y-4">
-        <p className="text-5xl">🎵</p>
+        <p className="text-5xl">🌺</p>
         <p className="text-muted-foreground text-lg">Song not found.</p>
         <Link href="/" className="text-primary font-semibold underline underline-offset-2">
           Back to library
@@ -76,7 +76,7 @@ export default function SongPage() {
       </Link>
 
       {/* Song header */}
-      <div className="bg-gradient-to-r from-primary/10 via-chart-2/10 to-accent/30 rounded-2xl p-6 sm:p-8">
+      <div className="bg-gradient-to-r from-primary/10 via-chart-5/15 to-accent/30 rounded-2xl p-6 sm:p-8">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
             <h1 className="text-3xl font-extrabold tracking-tight">{song.title}</h1>
