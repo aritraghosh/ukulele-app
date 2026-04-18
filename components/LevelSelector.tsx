@@ -8,10 +8,10 @@ interface LevelSelectorProps {
   disabled?: boolean;
 }
 
-const levels: { value: Level; label: string; desc: string }[] = [
-  { value: 'easy', label: 'Easy', desc: 'Simple open chords' },
-  { value: 'medium', label: 'Medium', desc: 'Standard chords' },
-  { value: 'advanced', label: 'Advanced', desc: 'Complex voicings' },
+const levels: { value: Level; label: string; emoji: string; color: string }[] = [
+  { value: 'easy', label: 'Easy', emoji: '🌱', color: 'bg-green-500 text-white hover:bg-green-600' },
+  { value: 'medium', label: 'Medium', emoji: '🔥', color: 'bg-amber-500 text-white hover:bg-amber-600' },
+  { value: 'advanced', label: 'Advanced', emoji: '⚡', color: 'bg-purple-600 text-white hover:bg-purple-700' },
 ];
 
 export function LevelSelector({ value, onChange, disabled }: LevelSelectorProps) {
@@ -22,14 +22,13 @@ export function LevelSelector({ value, onChange, disabled }: LevelSelectorProps)
           key={level.value}
           onClick={() => onChange(level.value)}
           disabled={disabled}
-          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+          className={`px-4 py-2 rounded-full text-sm font-semibold transition-all ${
             value === level.value
-              ? 'bg-primary text-primary-foreground'
+              ? level.color + ' shadow-md scale-105'
               : 'bg-muted text-muted-foreground hover:bg-accent'
           } disabled:opacity-50`}
-          title={level.desc}
         >
-          {level.label}
+          {level.emoji} {level.label}
         </button>
       ))}
     </div>
