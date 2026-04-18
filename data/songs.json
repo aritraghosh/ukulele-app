@@ -1,0 +1,1063 @@
+[
+  {
+    "id": "somewhere-over-the-rainbow-israel-kamakawiwoole",
+    "title": "Somewhere Over the Rainbow",
+    "artist": "Israel Kamakawiwoole",
+    "easy": {
+      "id": "somewhere-over-the-rainbow-israel-kamakawiwoole-easy",
+      "title": "Somewhere Over the Rainbow",
+      "artist": "Israel Kamakawiwoole",
+      "level": "easy",
+      "chords": [
+        { "name": "C", "frets": [0, 0, 0, 3], "fingers": [0, 0, 0, 3] },
+        { "name": "Em", "frets": [0, 4, 3, 2], "fingers": [0, 3, 2, 1] },
+        { "name": "Am", "frets": [2, 0, 0, 0], "fingers": [2, 0, 0, 0] },
+        { "name": "F", "frets": [2, 0, 1, 0], "fingers": [2, 0, 1, 0] },
+        { "name": "G", "frets": [0, 2, 3, 2], "fingers": [0, 1, 3, 2] }
+      ],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic island strum pattern at a relaxed tempo.",
+      "lyrics": "[C]Ooh ooh ooh [Em]ooh ooh\n[Am]Ooh ooh ooh [F]ooh\n\n[C]Somewhere [Em]over the rainbow\n[F]Way up [C]high\n[F]And the [C]dreams that you dream of\n[G]Once in a lulla[Am]by [F]\n\n[C]Somewhere [Em]over the rainbow\n[F]Blue birds [C]fly\n[F]And the [C]dreams that you dream of\n[G]Dreams really do come [Am]true [F]\n\n[C]Someday I'll wish upon a star\n[G]Wake up where the clouds are far be[Am]hind [F]me\n[C]Where trouble melts like lemon drops\n[G]High above the chimney tops\nThat's [Am]where you'll [F]find me"
+    },
+    "medium": {
+      "id": "somewhere-over-the-rainbow-israel-kamakawiwoole-medium",
+      "title": "Somewhere Over the Rainbow",
+      "artist": "Israel Kamakawiwoole",
+      "level": "medium",
+      "chords": [
+        { "name": "Cmaj7", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "Em7", "frets": [0, 2, 0, 2], "fingers": [0, 1, 0, 2] },
+        { "name": "Am7", "frets": [0, 0, 0, 0], "fingers": [0, 0, 0, 0] },
+        { "name": "Fmaj7", "frets": [2, 4, 1, 0], "fingers": [2, 4, 1, 0] },
+        { "name": "G7", "frets": [0, 2, 1, 2], "fingers": [0, 2, 1, 3] }
+      ],
+      "strummingPattern": "D DU U DU",
+      "strummingDescription": "Syncopated island strum with a muted chuck on beat 3.",
+      "lyrics": "[Cmaj7]Ooh ooh ooh [Em7]ooh ooh\n[Am7]Ooh ooh ooh [Fmaj7]ooh\n\n[Cmaj7]Somewhere [Em7]over the rainbow\n[Fmaj7]Way up [Cmaj7]high\n[Fmaj7]And the [Cmaj7]dreams that you dream of\n[G7]Once in a lulla[Am7]by [Fmaj7]\n\n[Cmaj7]Somewhere [Em7]over the rainbow\n[Fmaj7]Blue birds [Cmaj7]fly\n[Fmaj7]And the [Cmaj7]dreams that you dream of\n[G7]Dreams really do come [Am7]true [Fmaj7]\n\n[Cmaj7]Someday I'll wish upon a star\n[G7]Wake up where the clouds are far be[Am7]hind [Fmaj7]me\n[Cmaj7]Where trouble melts like lemon drops\n[G7]High above the chimney tops\nThat's [Am7]where you'll [Fmaj7]find me"
+    },
+    "advanced": {
+      "id": "somewhere-over-the-rainbow-israel-kamakawiwoole-advanced",
+      "title": "Somewhere Over the Rainbow",
+      "artist": "Israel Kamakawiwoole",
+      "level": "advanced",
+      "chords": [
+        { "name": "Cmaj9", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "Em9", "frets": [0, 2, 0, 2], "fingers": [0, 1, 0, 2] },
+        { "name": "Am9", "frets": [2, 0, 0, 3], "fingers": [1, 0, 0, 3] },
+        { "name": "Fmaj9", "frets": [2, 4, 0, 0], "fingers": [1, 3, 0, 0] },
+        { "name": "G13", "frets": [0, 2, 1, 4], "fingers": [0, 2, 1, 4] },
+        { "name": "Dm9", "frets": [2, 2, 1, 3], "fingers": [2, 2, 1, 4] }
+      ],
+      "strummingPattern": "D x U U x U D U",
+      "strummingDescription": "Advanced island groove with ghost strums (x = muted chuck) and syncopated upstrokes for a pro Hawaiian feel.",
+      "lyrics": "[Cmaj9]Ooh ooh ooh [Em9]ooh ooh\n[Am9]Ooh ooh ooh [Fmaj9]ooh\n\n[Cmaj9]Somewhere [Em9]over the rainbow\n[Fmaj9]Way up [Cmaj9]high\n[Fmaj9]And the [Cmaj9]dreams that you dream of\n[G13]Once in a lulla[Am9]by [Fmaj9]\n\n[Cmaj9]Somewhere [Em9]over the rainbow\n[Fmaj9]Blue birds [Cmaj9]fly\n[Fmaj9]And the [Cmaj9]dreams that you dream of\n[G13]Dreams really do come [Am9]true [Fmaj9]\n\n[Cmaj9]Someday I'll wish upon a star\n[G13]Wake up where the clouds are far be[Am9]hind [Fmaj9]me\n[Cmaj9]Where trouble melts like lemon drops\n[G13]High above the chimney tops\nThat's [Am9]where you'll [Dm9]find [Fmaj9]me"
+    }
+  },
+  {
+    "id": "im-yours-jason-mraz",
+    "title": "I'm Yours",
+    "artist": "Jason Mraz",
+    "easy": {
+      "id": "im-yours-jason-mraz-easy",
+      "title": "I'm Yours",
+      "artist": "Jason Mraz",
+      "level": "easy",
+      "chords": [
+        { "name": "C", "frets": [0, 0, 0, 3], "fingers": [0, 0, 0, 3] },
+        { "name": "G", "frets": [0, 2, 3, 2], "fingers": [0, 1, 3, 2] },
+        { "name": "Am", "frets": [2, 0, 0, 0], "fingers": [2, 0, 0, 0] },
+        { "name": "F", "frets": [2, 0, 1, 0], "fingers": [2, 0, 1, 0] }
+      ],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Relaxed reggae-style strum at a laid-back tempo.",
+      "lyrics": "[C]Well you done done me and you bet I felt it\n[G]I tried to be chill but you're so hot that I melted\n[Am]I fell right through the cracks\n[F]Now I'm trying to get back\n\n[C]Before the cool done run out I'll be giving it my bestest\n[G]And nothing's gonna stop me but divine intervention\n[Am]I reckon it's again my turn\n[F]To win some or learn some\n\n[C]But I won't hesi[G]tate no more\nNo [Am]more it cannot [F]wait I'm yours\n\n[C]Well open up your mind and see like [G]me\nOpen up your plans and damn you're [Am]free\nLook into your heart and you'll find [F]love love love love\n\n[C]Listen to the music of the moment people dance and [G]sing\nWe're just one big fami[Am]ly\nAnd it's our godforsaken right to be [F]loved loved loved loved [C]loved"
+    },
+    "medium": {
+      "id": "im-yours-jason-mraz-medium",
+      "title": "I'm Yours",
+      "artist": "Jason Mraz",
+      "level": "medium",
+      "chords": [
+        { "name": "C", "frets": [0, 0, 0, 3], "fingers": [0, 0, 0, 3] },
+        { "name": "G7", "frets": [0, 2, 1, 2], "fingers": [0, 2, 1, 3] },
+        { "name": "Am7", "frets": [0, 0, 0, 0], "fingers": [0, 0, 0, 0] },
+        { "name": "Fsus2", "frets": [0, 0, 1, 0], "fingers": [0, 0, 1, 0] }
+      ],
+      "strummingPattern": "D DU UDU",
+      "strummingDescription": "Syncopated shuffle strum with a reggae upstroke emphasis.",
+      "lyrics": "[C]Well you done done me and you bet I felt it\n[G7]I tried to be chill but you're so hot that I melted\n[Am7]I fell right through the cracks\n[Fsus2]Now I'm trying to get back\n\n[C]Before the cool done run out I'll be giving it my bestest\n[G7]And nothing's gonna stop me but divine intervention\n[Am7]I reckon it's again my turn\n[Fsus2]To win some or learn some\n\n[C]But I won't hesi[G7]tate no more\nNo [Am7]more it cannot [Fsus2]wait I'm yours\n\n[C]Well open up your mind and see like [G7]me\nOpen up your plans and damn you're [Am7]free\nLook into your heart and you'll find [Fsus2]love love love love\n\n[C]Listen to the music of the moment people dance and [G7]sing\nWe're just one big fami[Am7]ly\nAnd it's our godforsaken right to be [Fsus2]loved loved loved loved [C]loved"
+    },
+    "advanced": {
+      "id": "im-yours-jason-mraz-advanced",
+      "title": "I'm Yours",
+      "artist": "Jason Mraz",
+      "level": "advanced",
+      "chords": [
+        { "name": "Cmaj7", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "G13", "frets": [0, 2, 1, 4], "fingers": [0, 2, 1, 4] },
+        { "name": "Am9", "frets": [2, 0, 0, 3], "fingers": [1, 0, 0, 3] },
+        { "name": "Fmaj7", "frets": [2, 4, 1, 0], "fingers": [2, 4, 1, 0] },
+        { "name": "Dm7", "frets": [2, 2, 1, 3], "fingers": [2, 2, 1, 3] }
+      ],
+      "strummingPattern": "D x U U x U D x",
+      "strummingDescription": "Advanced reggae groove with muted chucks (x) on beats 2 and 4 for percussive feel.",
+      "lyrics": "[Cmaj7]Well you done done me and you bet I felt it\n[G13]I tried to be chill but you're so hot that I melted\n[Am9]I fell right through the cracks\n[Fmaj7]Now I'm trying to get back\n\n[Cmaj7]Before the cool done run out I'll be giving it my bestest\n[G13]And nothing's gonna stop me but divine intervention\n[Am9]I reckon it's again my turn\n[Fmaj7]To win some or [Dm7]learn some\n\n[Cmaj7]But I won't hesi[G13]tate no more\nNo [Am9]more it cannot [Fmaj7]wait I'm yours\n\n[Cmaj7]Well open up your mind and see like [G13]me\nOpen up your plans and damn you're [Am9]free\nLook into your heart and you'll find [Fmaj7]love love [Dm7]love love\n\n[Cmaj7]Listen to the music of the moment people dance and [G13]sing\nWe're just one big fami[Am9]ly\nAnd it's our godforsaken right to be [Fmaj7]loved loved [Dm7]loved loved [Cmaj7]loved"
+    }
+  },
+  {
+    "id": "riptide-vance-joy",
+    "title": "Riptide",
+    "artist": "Vance Joy",
+    "easy": {
+      "id": "riptide-vance-joy-easy",
+      "title": "Riptide",
+      "artist": "Vance Joy",
+      "level": "easy",
+      "chords": [
+        { "name": "Am", "frets": [2, 0, 0, 0], "fingers": [2, 0, 0, 0] },
+        { "name": "G", "frets": [0, 2, 3, 2], "fingers": [0, 1, 3, 2] },
+        { "name": "C", "frets": [0, 0, 0, 3], "fingers": [0, 0, 0, 3] },
+        { "name": "F", "frets": [2, 0, 1, 0], "fingers": [2, 0, 1, 0] }
+      ],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Steady down-up strum keeping a bouncy feel.",
+      "lyrics": "[Am]I was scared of [G]dentists and the [C]dark\n[Am]I was scared of [G]pretty girls and [C]starting conversations\n[Am]Oh all my [G]friends are turning [C]green\n[Am]You're the magi[G]cian's assistant [C]in their dreams\n\n[Am]Oh [G]oh and they [C]come unstuck\n\n[Am]Lady [G]running down to the [C]riptide\nTaken away to the [Am]dark side\n[G]I wanna be your [C]left hand man\n[Am]I love you [G]when you're singing that [C]song and\nI got a lump in my [Am]throat cause\n[G]You're gonna sing the [C]words wrong\n\n[Am]There's this movie [G]that I think you'll [C]like\n[Am]This guy decides to [G]quit his job and [C]heads to New York City\n[Am]This cowboy's [G]running from him[C]self\n[Am]And she's been living [G]on the highest [C]shelf"
+    },
+    "medium": {
+      "id": "riptide-vance-joy-medium",
+      "title": "Riptide",
+      "artist": "Vance Joy",
+      "level": "medium",
+      "chords": [
+        { "name": "Am7", "frets": [0, 0, 0, 0], "fingers": [0, 0, 0, 0] },
+        { "name": "Gsus4", "frets": [0, 2, 3, 3], "fingers": [0, 1, 2, 3] },
+        { "name": "Cadd9", "frets": [0, 0, 0, 3], "fingers": [0, 0, 0, 3] },
+        { "name": "Fsus2", "frets": [0, 0, 1, 0], "fingers": [0, 0, 1, 0] }
+      ],
+      "strummingPattern": "D DU UDU",
+      "strummingDescription": "Syncopated bouncy pattern with quick upstroke flicks.",
+      "lyrics": "[Am7]I was scared of [Gsus4]dentists and the [Cadd9]dark\n[Am7]I was scared of [Gsus4]pretty girls and [Cadd9]starting conversations\n[Am7]Oh all my [Gsus4]friends are turning [Cadd9]green\n[Am7]You're the magi[Gsus4]cian's assistant [Cadd9]in their dreams\n\n[Am7]Oh [Gsus4]oh and they [Cadd9]come unstuck\n\n[Am7]Lady [Gsus4]running down to the [Cadd9]riptide\nTaken away to the [Am7]dark side\n[Gsus4]I wanna be your [Cadd9]left hand man\n[Am7]I love you [Gsus4]when you're singing that [Cadd9]song and\nI got a lump in my [Am7]throat cause\n[Gsus4]You're gonna sing the [Cadd9]words wrong\n\n[Am7]There's this movie [Gsus4]that I think you'll [Cadd9]like\n[Am7]This guy decides to [Gsus4]quit his job and [Cadd9]heads to New York City\n[Am7]This cowboy's [Gsus4]running from him[Cadd9]self\n[Am7]And she's been living [Gsus4]on the highest [Cadd9]shelf"
+    },
+    "advanced": {
+      "id": "riptide-vance-joy-advanced",
+      "title": "Riptide",
+      "artist": "Vance Joy",
+      "level": "advanced",
+      "chords": [
+        { "name": "Am9", "frets": [2, 0, 0, 3], "fingers": [1, 0, 0, 3] },
+        { "name": "G6", "frets": [0, 2, 0, 2], "fingers": [0, 1, 0, 2] },
+        { "name": "Cmaj9", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "Fmaj7", "frets": [2, 4, 1, 0], "fingers": [2, 4, 1, 0] },
+        { "name": "Em7", "frets": [0, 2, 0, 2], "fingers": [0, 1, 0, 2] }
+      ],
+      "strummingPattern": "D x U U x U D U",
+      "strummingDescription": "Percussive pattern with muted chucks adding groove and dynamics.",
+      "lyrics": "[Am9]I was scared of [G6]dentists and the [Cmaj9]dark\n[Am9]I was scared of [G6]pretty girls and [Cmaj9]starting conversations\n[Am9]Oh all my [G6]friends are turning [Cmaj9]green\n[Am9]You're the magi[G6]cian's assistant [Cmaj9]in their dreams\n\n[Am9]Oh [G6]oh and they [Cmaj9]come unstuck\n\n[Am9]Lady [G6]running down to the [Cmaj9]riptide\nTaken away to the [Am9]dark side\n[G6]I wanna be your [Cmaj9]left hand man\n[Am9]I love you [G6]when you're singing that [Cmaj9]song and\nI got a lump in my [Am9]throat cause\n[G6]You're gonna sing the [Em7]words [Fmaj7]wrong\n\n[Am9]There's this movie [G6]that I think you'll [Cmaj9]like\n[Am9]This guy decides to [G6]quit his job and [Cmaj9]heads to New York City\n[Am9]This cowboy's [G6]running from him[Cmaj9]self\n[Am9]And she's been living [G6]on the highest [Fmaj7]shelf"
+    }
+  },
+  {
+    "id": "cant-help-falling-in-love-elvis-presley",
+    "title": "Can't Help Falling in Love",
+    "artist": "Elvis Presley",
+    "easy": {
+      "id": "cant-help-falling-in-love-elvis-presley-easy",
+      "title": "Can't Help Falling in Love",
+      "artist": "Elvis Presley",
+      "level": "easy",
+      "chords": [
+        { "name": "C", "frets": [0, 0, 0, 3], "fingers": [0, 0, 0, 3] },
+        { "name": "Em", "frets": [0, 4, 3, 2], "fingers": [0, 3, 2, 1] },
+        { "name": "Am", "frets": [2, 0, 0, 0], "fingers": [2, 0, 0, 0] },
+        { "name": "F", "frets": [2, 0, 1, 0], "fingers": [2, 0, 1, 0] },
+        { "name": "G", "frets": [0, 2, 3, 2], "fingers": [0, 1, 3, 2] },
+        { "name": "D", "frets": [2, 2, 2, 0], "fingers": [1, 2, 3, 0] }
+      ],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Gentle waltz-feel strum, slow and tender.",
+      "lyrics": "[C]Wise [Em]men [Am]say\nOnly [F]fools [C]rush [G]in\nBut [F]I [G]can't [Am]help [F]falling in [C]love [G]with [C]you\n\n[C]Shall [Em]I [Am]stay\nWould it [F]be [C]a [G]sin\nIf [F]I [G]can't [Am]help [F]falling in [C]love [G]with [C]you\n\n[Am]Like a river [D]flows\n[Am]Surely to the [D]sea\n[Am]Darling so it [D]goes\nSome things [Am]are meant to [G]be\n\n[C]Take [Em]my [Am]hand\nTake my [F]whole [C]life [G]too\nFor [F]I [G]can't [Am]help [F]falling in [C]love [G]with [C]you"
+    },
+    "medium": {
+      "id": "cant-help-falling-in-love-elvis-presley-medium",
+      "title": "Can't Help Falling in Love",
+      "artist": "Elvis Presley",
+      "level": "medium",
+      "chords": [
+        { "name": "Cmaj7", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "Em7", "frets": [0, 2, 0, 2], "fingers": [0, 1, 0, 2] },
+        { "name": "Am7", "frets": [0, 0, 0, 0], "fingers": [0, 0, 0, 0] },
+        { "name": "Fmaj7", "frets": [2, 4, 1, 0], "fingers": [2, 4, 1, 0] },
+        { "name": "G7", "frets": [0, 2, 1, 2], "fingers": [0, 2, 1, 3] },
+        { "name": "Dm7", "frets": [2, 2, 1, 3], "fingers": [2, 2, 1, 3] }
+      ],
+      "strummingPattern": "D DU UDU",
+      "strummingDescription": "Rolling waltz strum with gentle syncopation on the and-beats.",
+      "lyrics": "[Cmaj7]Wise [Em7]men [Am7]say\nOnly [Fmaj7]fools [Cmaj7]rush [G7]in\nBut [Fmaj7]I [G7]can't [Am7]help [Fmaj7]falling in [Cmaj7]love [G7]with [Cmaj7]you\n\n[Cmaj7]Shall [Em7]I [Am7]stay\nWould it [Fmaj7]be [Cmaj7]a [G7]sin\nIf [Fmaj7]I [G7]can't [Am7]help [Fmaj7]falling in [Cmaj7]love [G7]with [Cmaj7]you\n\n[Am7]Like a river [Dm7]flows\n[Am7]Surely to the [Dm7]sea\n[Am7]Darling so it [Dm7]goes\nSome things [Am7]are meant to [G7]be\n\n[Cmaj7]Take [Em7]my [Am7]hand\nTake my [Fmaj7]whole [Cmaj7]life [G7]too\nFor [Fmaj7]I [G7]can't [Am7]help [Fmaj7]falling in [Cmaj7]love [G7]with [Cmaj7]you"
+    },
+    "advanced": {
+      "id": "cant-help-falling-in-love-elvis-presley-advanced",
+      "title": "Can't Help Falling in Love",
+      "artist": "Elvis Presley",
+      "level": "advanced",
+      "chords": [
+        { "name": "Cmaj9", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "Em9", "frets": [0, 2, 0, 2], "fingers": [0, 1, 0, 2] },
+        { "name": "Am9", "frets": [2, 0, 0, 3], "fingers": [1, 0, 0, 3] },
+        { "name": "Fmaj9", "frets": [2, 4, 0, 0], "fingers": [1, 3, 0, 0] },
+        { "name": "G13", "frets": [0, 2, 1, 4], "fingers": [0, 2, 1, 4] },
+        { "name": "Dm9", "frets": [2, 2, 1, 3], "fingers": [2, 2, 1, 4] },
+        { "name": "Bdim7", "frets": [1, 2, 1, 2], "fingers": [1, 3, 2, 4] }
+      ],
+      "strummingPattern": "D x U D x U",
+      "strummingDescription": "Jazz waltz feel with ghost strums for a sophisticated, intimate arrangement.",
+      "lyrics": "[Cmaj9]Wise [Em9]men [Am9]say\nOnly [Fmaj9]fools [Cmaj9]rush [G13]in\nBut [Fmaj9]I [G13]can't [Am9]help [Fmaj9]falling in [Cmaj9]love [Bdim7]with [Cmaj9]you\n\n[Cmaj9]Shall [Em9]I [Am9]stay\nWould it [Fmaj9]be [Cmaj9]a [G13]sin\nIf [Fmaj9]I [G13]can't [Am9]help [Fmaj9]falling in [Cmaj9]love [Bdim7]with [Cmaj9]you\n\n[Am9]Like a river [Dm9]flows\n[Am9]Surely to the [Dm9]sea\n[Am9]Darling so it [Dm9]goes\nSome things [Am9]are meant to [G13]be\n\n[Cmaj9]Take [Em9]my [Am9]hand\nTake my [Fmaj9]whole [Cmaj9]life [G13]too\nFor [Fmaj9]I [G13]can't [Am9]help [Fmaj9]falling in [Cmaj9]love [Bdim7]with [Cmaj9]you"
+    }
+  },
+  {
+    "id": "three-little-birds-bob-marley",
+    "title": "Three Little Birds",
+    "artist": "Bob Marley",
+    "easy": {
+      "id": "three-little-birds-bob-marley-easy",
+      "title": "Three Little Birds",
+      "artist": "Bob Marley",
+      "level": "easy",
+      "chords": [
+        { "name": "C", "frets": [0, 0, 0, 3], "fingers": [0, 0, 0, 3] },
+        { "name": "F", "frets": [2, 0, 1, 0], "fingers": [2, 0, 1, 0] },
+        { "name": "G", "frets": [0, 2, 3, 2], "fingers": [0, 1, 3, 2] }
+      ],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Classic reggae strum with emphasis on the upbeats.",
+      "lyrics": "[C]Don't worry about a thing\n[F]Cause every little thing\nGonna be al[C]right\n\n[C]Don't worry about a thing\n[F]Cause every little thing\nGonna be al[C]right\n\n[C]Rise up this morning\n[G]Smiled with the rising sun\n[C]Three little birds\n[F]Pitch by my doorstep\n[C]Singing sweet songs\n[G]Of melodies pure and true\n[F]Saying this is my message to [C]you\n\n[C]Don't worry about a thing\n[F]Cause every little thing\nGonna be al[C]right\n\n[C]Don't worry about a thing\n[F]Cause every little thing\nGonna be al[C]right"
+    },
+    "medium": {
+      "id": "three-little-birds-bob-marley-medium",
+      "title": "Three Little Birds",
+      "artist": "Bob Marley",
+      "level": "medium",
+      "chords": [
+        { "name": "Cmaj7", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "Fmaj7", "frets": [2, 4, 1, 0], "fingers": [2, 4, 1, 0] },
+        { "name": "G7", "frets": [0, 2, 1, 2], "fingers": [0, 2, 1, 3] },
+        { "name": "Am7", "frets": [0, 0, 0, 0], "fingers": [0, 0, 0, 0] }
+      ],
+      "strummingPattern": "D DU UDU",
+      "strummingDescription": "Reggae skank pattern with syncopated offbeat emphasis.",
+      "lyrics": "[Cmaj7]Don't worry about a thing\n[Fmaj7]Cause every little thing\nGonna be al[Cmaj7]right\n\n[Cmaj7]Don't worry about a thing\n[Fmaj7]Cause every little thing\nGonna be al[Cmaj7]right\n\n[Cmaj7]Rise up this morning\n[G7]Smiled with the rising sun\n[Cmaj7]Three little birds\n[Fmaj7]Pitch by my doorstep\n[Cmaj7]Singing sweet songs\n[G7]Of melodies pure and [Am7]true\n[Fmaj7]Saying this is my message to [Cmaj7]you\n\n[Cmaj7]Don't worry about a thing\n[Fmaj7]Cause every little thing\nGonna be al[Cmaj7]right"
+    },
+    "advanced": {
+      "id": "three-little-birds-bob-marley-advanced",
+      "title": "Three Little Birds",
+      "artist": "Bob Marley",
+      "level": "advanced",
+      "chords": [
+        { "name": "Cmaj9", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "Fmaj9", "frets": [2, 4, 0, 0], "fingers": [1, 3, 0, 0] },
+        { "name": "G9", "frets": [0, 2, 1, 0], "fingers": [0, 2, 1, 0] },
+        { "name": "Am9", "frets": [2, 0, 0, 3], "fingers": [1, 0, 0, 3] },
+        { "name": "Em7", "frets": [0, 2, 0, 2], "fingers": [0, 1, 0, 2] }
+      ],
+      "strummingPattern": "D x U U x U D x",
+      "strummingDescription": "Deep reggae groove with heavy muted chucks on 2 and 4 for authentic skank.",
+      "lyrics": "[Cmaj9]Don't worry about a thing\n[Fmaj9]Cause every little thing\nGonna be al[Cmaj9]right\n\n[Cmaj9]Don't worry about a thing\n[Fmaj9]Cause every little thing\nGonna be al[Cmaj9]right\n\n[Cmaj9]Rise up this morning\n[G9]Smiled with the [Em7]rising sun\n[Cmaj9]Three little birds\n[Fmaj9]Pitch by my doorstep\n[Cmaj9]Singing sweet songs\n[G9]Of melodies pure and [Am9]true\n[Fmaj9]Saying this is my message to [Cmaj9]you\n\n[Cmaj9]Don't worry about a thing\n[Fmaj9]Cause every little thing\nGonna be al[Cmaj9]right"
+    }
+  },
+  {
+    "id": "stand-by-me-ben-e-king",
+    "title": "Stand By Me",
+    "artist": "Ben E. King",
+    "easy": {
+      "id": "stand-by-me-ben-e-king-easy",
+      "title": "Stand By Me",
+      "artist": "Ben E. King",
+      "level": "easy",
+      "chords": [
+        { "name": "C", "frets": [0, 0, 0, 3], "fingers": [0, 0, 0, 3] },
+        { "name": "Am", "frets": [2, 0, 0, 0], "fingers": [2, 0, 0, 0] },
+        { "name": "F", "frets": [2, 0, 1, 0], "fingers": [2, 0, 1, 0] },
+        { "name": "G", "frets": [0, 2, 3, 2], "fingers": [0, 1, 3, 2] }
+      ],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Smooth soul strum with steady downbeats.",
+      "lyrics": "When the [C]night has come\n[Am]And the land is dark\nAnd the [F]moon is the [G]only light we'll [C]see\n\nNo I [C]won't be afraid\nOh I [Am]won't be afraid\nJust as [F]long as you [G]stand stand by [C]me\n\nSo darling darling [C]stand by me\nOh [Am]stand by me\nOh [F]stand [G]stand by me [C]stand by me\n\nIf the [C]sky that we look upon\n[Am]Should tumble and fall\nOr the [F]mountains should [G]crumble to the [C]sea\n\nI won't [C]cry I won't cry\nNo I [Am]won't shed a tear\nJust as [F]long as you [G]stand stand by [C]me"
+    },
+    "medium": {
+      "id": "stand-by-me-ben-e-king-medium",
+      "title": "Stand By Me",
+      "artist": "Ben E. King",
+      "level": "medium",
+      "chords": [
+        { "name": "Cmaj7", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "Am7", "frets": [0, 0, 0, 0], "fingers": [0, 0, 0, 0] },
+        { "name": "Fmaj7", "frets": [2, 4, 1, 0], "fingers": [2, 4, 1, 0] },
+        { "name": "G7", "frets": [0, 2, 1, 2], "fingers": [0, 2, 1, 3] },
+        { "name": "Dm7", "frets": [2, 2, 1, 3], "fingers": [2, 2, 1, 3] }
+      ],
+      "strummingPattern": "D DU UDU",
+      "strummingDescription": "Soulful groove with a laid-back swing feel.",
+      "lyrics": "When the [Cmaj7]night has come\n[Am7]And the land is dark\nAnd the [Fmaj7]moon is the [G7]only light we'll [Cmaj7]see\n\nNo I [Cmaj7]won't be afraid\nOh I [Am7]won't be afraid\nJust as [Fmaj7]long as you [G7]stand stand by [Cmaj7]me\n\nSo darling darling [Cmaj7]stand by me\nOh [Am7]stand [Dm7]by me\nOh [Fmaj7]stand [G7]stand by me [Cmaj7]stand by me\n\nIf the [Cmaj7]sky that we look upon\n[Am7]Should tumble and fall\nOr the [Fmaj7]mountains should [G7]crumble to the [Cmaj7]sea\n\nI won't [Cmaj7]cry I won't cry\nNo I [Am7]won't shed a tear\nJust as [Fmaj7]long as you [G7]stand stand by [Cmaj7]me"
+    },
+    "advanced": {
+      "id": "stand-by-me-ben-e-king-advanced",
+      "title": "Stand By Me",
+      "artist": "Ben E. King",
+      "level": "advanced",
+      "chords": [
+        { "name": "Cmaj9", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "Am9", "frets": [2, 0, 0, 3], "fingers": [1, 0, 0, 3] },
+        { "name": "Fmaj9", "frets": [2, 4, 0, 0], "fingers": [1, 3, 0, 0] },
+        { "name": "G13", "frets": [0, 2, 1, 4], "fingers": [0, 2, 1, 4] },
+        { "name": "Dm9", "frets": [2, 2, 1, 3], "fingers": [2, 2, 1, 4] },
+        { "name": "Bdim7", "frets": [1, 2, 1, 2], "fingers": [1, 3, 2, 4] }
+      ],
+      "strummingPattern": "D x U U x U D U",
+      "strummingDescription": "Neo-soul groove with ghost mutes and dynamic swells for a polished feel.",
+      "lyrics": "When the [Cmaj9]night has come\n[Am9]And the land is dark\nAnd the [Fmaj9]moon is the [G13]only light we'll [Cmaj9]see\n\nNo I [Cmaj9]won't be afraid\nOh I [Am9]won't [Bdim7]be afraid\nJust as [Fmaj9]long as you [G13]stand stand by [Cmaj9]me\n\nSo darling darling [Cmaj9]stand by me\nOh [Am9]stand [Dm9]by me\nOh [Fmaj9]stand [G13]stand by me [Cmaj9]stand by me\n\nIf the [Cmaj9]sky that we look upon\n[Am9]Should tumble and fall\nOr the [Fmaj9]mountains should [G13]crumble to the [Cmaj9]sea\n\nI won't [Cmaj9]cry I won't cry\nNo I [Am9]won't [Bdim7]shed a tear\nJust as [Fmaj9]long as you [G13]stand stand by [Cmaj9]me"
+    }
+  },
+  {
+    "id": "hey-soul-sister-train",
+    "title": "Hey Soul Sister",
+    "artist": "Train",
+    "easy": {
+      "id": "hey-soul-sister-train-easy",
+      "title": "Hey Soul Sister",
+      "artist": "Train",
+      "level": "easy",
+      "chords": [
+        { "name": "C", "frets": [0, 0, 0, 3], "fingers": [0, 0, 0, 3] },
+        { "name": "G", "frets": [0, 2, 3, 2], "fingers": [0, 1, 3, 2] },
+        { "name": "Am", "frets": [2, 0, 0, 0], "fingers": [2, 0, 0, 0] },
+        { "name": "F", "frets": [2, 0, 1, 0], "fingers": [2, 0, 1, 0] }
+      ],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Bright pop strum keeping an upbeat feel.",
+      "lyrics": "[C]Hey [G]hey [Am]hey [F]\n\n[C]Your lipstick stains [G]on the front lobe of my\n[Am]Left side brains [F]\nI knew I wouldn't for[C]get you\nAnd so I went and [G]let you blow my [Am]mind [F]\n\n[C]Your sweet moonbeam [G]\nThe smell of you in every [Am]single dream I [F]dream\nI knew when we col[C]lided\nYou're the one I have de[G]cided\nWho's one of my [Am]kind [F]\n\n[F]Hey [G]soul sister\n[C]Ain't that mister [G]mister\n[F]On the [G]radio [C]stereo\nThe [G]way you move ain't [F]fair you [G]know\n[F]Hey [G]soul sister\n[C]I don't wanna [G]miss a\n[F]Single [G]thing you do [C]tonight [G]\n\n[C]Hey [G]hey [Am]hey [F]"
+    },
+    "medium": {
+      "id": "hey-soul-sister-train-medium",
+      "title": "Hey Soul Sister",
+      "artist": "Train",
+      "level": "medium",
+      "chords": [
+        { "name": "Cmaj7", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "Gsus4", "frets": [0, 2, 3, 3], "fingers": [0, 1, 2, 3] },
+        { "name": "Am7", "frets": [0, 0, 0, 0], "fingers": [0, 0, 0, 0] },
+        { "name": "Fmaj7", "frets": [2, 4, 1, 0], "fingers": [2, 4, 1, 0] },
+        { "name": "G", "frets": [0, 2, 3, 2], "fingers": [0, 1, 3, 2] }
+      ],
+      "strummingPattern": "D DU UDU",
+      "strummingDescription": "Syncopated pop strum with rhythmic upstroke emphasis.",
+      "lyrics": "[Cmaj7]Hey [G]hey [Am7]hey [Fmaj7]\n\n[Cmaj7]Your lipstick stains [G]on the front lobe of my\n[Am7]Left side brains [Fmaj7]\nI knew I wouldn't for[Cmaj7]get you\nAnd so I went and [G]let you blow my [Am7]mind [Fmaj7]\n\n[Cmaj7]Your sweet moonbeam [Gsus4]\nThe smell of you in every [Am7]single dream I [Fmaj7]dream\nI knew when we col[Cmaj7]lided\nYou're the one I have de[G]cided\nWho's one of my [Am7]kind [Fmaj7]\n\n[Fmaj7]Hey [G]soul sister\n[Cmaj7]Ain't that mister [G]mister\n[Fmaj7]On the [G]radio [Cmaj7]stereo\nThe [G]way you move ain't [Fmaj7]fair you [G]know\n[Fmaj7]Hey [G]soul sister\n[Cmaj7]I don't wanna [G]miss a\n[Fmaj7]Single [G]thing you do [Cmaj7]tonight [G]"
+    },
+    "advanced": {
+      "id": "hey-soul-sister-train-advanced",
+      "title": "Hey Soul Sister",
+      "artist": "Train",
+      "level": "advanced",
+      "chords": [
+        { "name": "Cmaj9", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "G6", "frets": [0, 2, 0, 2], "fingers": [0, 1, 0, 2] },
+        { "name": "Am9", "frets": [2, 0, 0, 3], "fingers": [1, 0, 0, 3] },
+        { "name": "Fmaj9", "frets": [2, 4, 0, 0], "fingers": [1, 3, 0, 0] },
+        { "name": "G13", "frets": [0, 2, 1, 4], "fingers": [0, 2, 1, 4] },
+        { "name": "Em7", "frets": [0, 2, 0, 2], "fingers": [0, 1, 0, 2] }
+      ],
+      "strummingPattern": "D x U U x U D U",
+      "strummingDescription": "Complex pop groove with muted chucks and dynamic variation.",
+      "lyrics": "[Cmaj9]Hey [G6]hey [Am9]hey [Fmaj9]\n\n[Cmaj9]Your lipstick stains [G6]on the front lobe of my\n[Am9]Left side brains [Fmaj9]\nI knew I wouldn't for[Cmaj9]get you\nAnd so I went and [G6]let you blow my [Am9]mind [Fmaj9]\n\n[Cmaj9]Your sweet moonbeam [G13]\nThe smell of you in every [Am9]single dream I [Fmaj9]dream\nI knew when we col[Cmaj9]lided\nYou're the one I have de[G6]cided\nWho's one of my [Em7]kind [Fmaj9]\n\n[Fmaj9]Hey [G13]soul sister\n[Cmaj9]Ain't that mister [G6]mister\n[Fmaj9]On the [G13]radio [Cmaj9]stereo\nThe [G6]way you move ain't [Fmaj9]fair you [G13]know\n[Fmaj9]Hey [G13]soul sister\n[Cmaj9]I don't wanna [G6]miss a\n[Fmaj9]Single [G13]thing you do [Cmaj9]tonight [G6]"
+    }
+  },
+  {
+    "id": "leaving-on-a-jet-plane-john-denver",
+    "title": "Leaving on a Jet Plane",
+    "artist": "John Denver",
+    "easy": {
+      "id": "leaving-on-a-jet-plane-john-denver-easy",
+      "title": "Leaving on a Jet Plane",
+      "artist": "John Denver",
+      "level": "easy",
+      "chords": [
+        { "name": "C", "frets": [0, 0, 0, 3], "fingers": [0, 0, 0, 3] },
+        { "name": "F", "frets": [2, 0, 1, 0], "fingers": [2, 0, 1, 0] },
+        { "name": "G", "frets": [0, 2, 3, 2], "fingers": [0, 1, 3, 2] },
+        { "name": "Am", "frets": [2, 0, 0, 0], "fingers": [2, 0, 0, 0] }
+      ],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Steady folk strum with an even tempo.",
+      "lyrics": "All my [C]bags are packed I'm [F]ready to go\nI'm [C]standing here out[F]side your door\nI [C]hate to wake you [Am]up to say good[G]bye\n\nBut the [C]dawn is breaking it's [F]early morn\nThe [C]taxi's waiting he's [F]blowing his horn\nAl[C]ready I'm so [Am]lonesome I could [G]cry\n\nSo [C]kiss me and [F]smile for me\n[C]Tell me that you'll [F]wait for me\n[C]Hold me like you'll [Am]never let me [G]go\n\nCause I'm [C]leaving [F]on a jet plane\n[C]Don't know when [F]I'll be back again\n[C]Oh [Am]babe I [G]hate to go\n\nThere's so [C]many times I've [F]let you down\nSo [C]many times I've [F]played around\nI [C]tell you now [Am]they don't mean a [G]thing"
+    },
+    "medium": {
+      "id": "leaving-on-a-jet-plane-john-denver-medium",
+      "title": "Leaving on a Jet Plane",
+      "artist": "John Denver",
+      "level": "medium",
+      "chords": [
+        { "name": "Cmaj7", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "Fmaj7", "frets": [2, 4, 1, 0], "fingers": [2, 4, 1, 0] },
+        { "name": "G7", "frets": [0, 2, 1, 2], "fingers": [0, 2, 1, 3] },
+        { "name": "Am7", "frets": [0, 0, 0, 0], "fingers": [0, 0, 0, 0] },
+        { "name": "Dm7", "frets": [2, 2, 1, 3], "fingers": [2, 2, 1, 3] }
+      ],
+      "strummingPattern": "D DU UDU",
+      "strummingDescription": "Folk fingerstrum hybrid with syncopated upstrokes.",
+      "lyrics": "All my [Cmaj7]bags are packed I'm [Fmaj7]ready to go\nI'm [Cmaj7]standing here out[Fmaj7]side your door\nI [Cmaj7]hate to wake you [Am7]up to say good[G7]bye\n\nBut the [Cmaj7]dawn is breaking it's [Fmaj7]early morn\nThe [Cmaj7]taxi's waiting he's [Fmaj7]blowing his horn\nAl[Cmaj7]ready I'm so [Dm7]lonesome I could [G7]cry\n\nSo [Cmaj7]kiss me and [Fmaj7]smile for me\n[Cmaj7]Tell me that you'll [Fmaj7]wait for me\n[Cmaj7]Hold me like you'll [Am7]never let me [G7]go\n\nCause I'm [Cmaj7]leaving [Fmaj7]on a jet plane\n[Cmaj7]Don't know when [Fmaj7]I'll be back again\n[Cmaj7]Oh [Am7]babe I [G7]hate to go"
+    },
+    "advanced": {
+      "id": "leaving-on-a-jet-plane-john-denver-advanced",
+      "title": "Leaving on a Jet Plane",
+      "artist": "John Denver",
+      "level": "advanced",
+      "chords": [
+        { "name": "Cmaj9", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "Fmaj9", "frets": [2, 4, 0, 0], "fingers": [1, 3, 0, 0] },
+        { "name": "G13", "frets": [0, 2, 1, 4], "fingers": [0, 2, 1, 4] },
+        { "name": "Am9", "frets": [2, 0, 0, 3], "fingers": [1, 0, 0, 3] },
+        { "name": "Dm9", "frets": [2, 2, 1, 3], "fingers": [2, 2, 1, 4] },
+        { "name": "Em7", "frets": [0, 2, 0, 2], "fingers": [0, 1, 0, 2] }
+      ],
+      "strummingPattern": "D x U U x U D U",
+      "strummingDescription": "Fingerstyle-inspired strum with ghost notes and dynamic swells.",
+      "lyrics": "All my [Cmaj9]bags are packed I'm [Fmaj9]ready to go\nI'm [Cmaj9]standing here out[Fmaj9]side your door\nI [Cmaj9]hate to wake you [Am9]up to say good[G13]bye\n\nBut the [Cmaj9]dawn is breaking it's [Fmaj9]early morn\nThe [Cmaj9]taxi's waiting he's [Fmaj9]blowing his horn\nAl[Cmaj9]ready I'm so [Dm9]lonesome I could [G13]cry\n\nSo [Cmaj9]kiss me and [Fmaj9]smile for me\n[Cmaj9]Tell me that you'll [Fmaj9]wait for me\n[Cmaj9]Hold me like you'll [Am9]never [Em7]let me [G13]go\n\nCause I'm [Cmaj9]leaving [Fmaj9]on a jet plane\n[Cmaj9]Don't know when [Fmaj9]I'll be back again\n[Cmaj9]Oh [Am9]babe I [G13]hate to go"
+    }
+  },
+  {
+    "id": "country-roads-john-denver",
+    "title": "Country Roads",
+    "artist": "John Denver",
+    "easy": {
+      "id": "country-roads-john-denver-easy",
+      "title": "Country Roads",
+      "artist": "John Denver",
+      "level": "easy",
+      "chords": [
+        { "name": "C", "frets": [0, 0, 0, 3], "fingers": [0, 0, 0, 3] },
+        { "name": "Am", "frets": [2, 0, 0, 0], "fingers": [2, 0, 0, 0] },
+        { "name": "G", "frets": [0, 2, 3, 2], "fingers": [0, 1, 3, 2] },
+        { "name": "F", "frets": [2, 0, 1, 0], "fingers": [2, 0, 1, 0] },
+        { "name": "Em", "frets": [0, 4, 3, 2], "fingers": [0, 3, 2, 1] },
+        { "name": "D", "frets": [2, 2, 2, 0], "fingers": [1, 2, 3, 0] }
+      ],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Driving country strum with steady momentum.",
+      "lyrics": "[C]Almost heaven [Am]West Virginia\n[G]Blue Ridge Mountains [F]Shenandoah [C]River\n[C]Life is old there [Am]older than the trees\n[G]Younger than the mountains [F]blowing like a [C]breeze\n\n[C]Country roads take me [G]home\nTo the [Am]place I be[F]long\nWest Vir[C]ginia mountain [G]mama\nTake me [F]home country [C]roads\n\n[C]All my memories [Am]gather round her\n[G]Miner's lady [F]stranger to blue [C]water\n[C]Dark and dusty [Am]painted on the sky\n[G]Misty taste of moonshine [F]teardrop in my [C]eye\n\n[C]Country roads take me [G]home\nTo the [Am]place I be[F]long\nWest Vir[C]ginia mountain [G]mama\nTake me [F]home country [C]roads\n\n[Am]I hear her [G]voice in the [C]morning hour she calls me\nThe [F]radio re[C]minds me of my [G]home far away\nAnd [Am]driving down the [G]road I get a [F]feeling\nThat I [C]should have been home [G]yesterday yester[C]day"
+    },
+    "medium": {
+      "id": "country-roads-john-denver-medium",
+      "title": "Country Roads",
+      "artist": "John Denver",
+      "level": "medium",
+      "chords": [
+        { "name": "Cmaj7", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "Am7", "frets": [0, 0, 0, 0], "fingers": [0, 0, 0, 0] },
+        { "name": "G7", "frets": [0, 2, 1, 2], "fingers": [0, 2, 1, 3] },
+        { "name": "Fmaj7", "frets": [2, 4, 1, 0], "fingers": [2, 4, 1, 0] },
+        { "name": "Em7", "frets": [0, 2, 0, 2], "fingers": [0, 1, 0, 2] },
+        { "name": "Dm7", "frets": [2, 2, 1, 3], "fingers": [2, 2, 1, 3] }
+      ],
+      "strummingPattern": "D DU UDU",
+      "strummingDescription": "Folk-country strum with swung offbeats.",
+      "lyrics": "[Cmaj7]Almost heaven [Am7]West Virginia\n[G7]Blue Ridge Mountains [Fmaj7]Shenandoah [Cmaj7]River\n[Cmaj7]Life is old there [Am7]older than the trees\n[G7]Younger than the mountains [Fmaj7]blowing like a [Cmaj7]breeze\n\n[Cmaj7]Country roads take me [G7]home\nTo the [Am7]place I be[Fmaj7]long\nWest Vir[Cmaj7]ginia mountain [G7]mama\nTake me [Fmaj7]home country [Cmaj7]roads\n\n[Cmaj7]All my memories [Am7]gather round her\n[G7]Miner's lady [Fmaj7]stranger to blue [Cmaj7]water\n[Cmaj7]Dark and dusty [Am7]painted on the sky\n[G7]Misty taste of moonshine [Fmaj7]teardrop in my [Cmaj7]eye\n\n[Am7]I hear her [G7]voice in the [Cmaj7]morning hour she calls me\nThe [Fmaj7]radio re[Cmaj7]minds me of my [G7]home far away\nAnd [Am7]driving down the [G7]road I get a [Fmaj7]feeling\nThat I [Cmaj7]should have been home [Dm7]yesterday [G7]yester[Cmaj7]day"
+    },
+    "advanced": {
+      "id": "country-roads-john-denver-advanced",
+      "title": "Country Roads",
+      "artist": "John Denver",
+      "level": "advanced",
+      "chords": [
+        { "name": "Cmaj9", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "Am9", "frets": [2, 0, 0, 3], "fingers": [1, 0, 0, 3] },
+        { "name": "G13", "frets": [0, 2, 1, 4], "fingers": [0, 2, 1, 4] },
+        { "name": "Fmaj9", "frets": [2, 4, 0, 0], "fingers": [1, 3, 0, 0] },
+        { "name": "Em9", "frets": [0, 2, 0, 2], "fingers": [0, 1, 0, 2] },
+        { "name": "Dm9", "frets": [2, 2, 1, 3], "fingers": [2, 2, 1, 4] },
+        { "name": "Gsus4", "frets": [0, 2, 3, 3], "fingers": [0, 1, 2, 3] }
+      ],
+      "strummingPattern": "D x U U x U D U",
+      "strummingDescription": "Americana groove with percussive muted strums and dynamic country picking influence.",
+      "lyrics": "[Cmaj9]Almost heaven [Am9]West Virginia\n[G13]Blue Ridge Mountains [Fmaj9]Shenandoah [Cmaj9]River\n[Cmaj9]Life is old there [Am9]older than the trees\n[G13]Younger than the mountains [Fmaj9]blowing like a [Cmaj9]breeze\n\n[Cmaj9]Country roads take me [G13]home\nTo the [Am9]place I be[Fmaj9]long\nWest Vir[Cmaj9]ginia mountain [Gsus4]mama [G13]\nTake me [Fmaj9]home country [Cmaj9]roads\n\n[Cmaj9]All my memories [Am9]gather round her\n[G13]Miner's lady [Fmaj9]stranger to blue [Cmaj9]water\n[Cmaj9]Dark and dusty [Am9]painted on the sky\n[G13]Misty taste of moonshine [Fmaj9]teardrop in my [Cmaj9]eye\n\n[Am9]I hear her [G13]voice in the [Cmaj9]morning hour she calls me\nThe [Fmaj9]radio re[Cmaj9]minds me of my [G13]home far away\nAnd [Am9]driving down the [Em9]road I get a [Fmaj9]feeling\nThat I [Cmaj9]should have been home [Dm9]yesterday [G13]yester[Cmaj9]day"
+    }
+  },
+  {
+    "id": "let-it-be-the-beatles",
+    "title": "Let It Be",
+    "artist": "The Beatles",
+    "easy": {
+      "id": "let-it-be-the-beatles-easy",
+      "title": "Let It Be",
+      "artist": "The Beatles",
+      "level": "easy",
+      "chords": [
+        { "name": "C", "frets": [0, 0, 0, 3], "fingers": [0, 0, 0, 3] },
+        { "name": "G", "frets": [0, 2, 3, 2], "fingers": [0, 1, 3, 2] },
+        { "name": "Am", "frets": [2, 0, 0, 0], "fingers": [2, 0, 0, 0] },
+        { "name": "F", "frets": [2, 0, 1, 0], "fingers": [2, 0, 1, 0] },
+        { "name": "Em", "frets": [0, 4, 3, 2], "fingers": [0, 3, 2, 1] },
+        { "name": "D", "frets": [2, 2, 2, 0], "fingers": [1, 2, 3, 0] }
+      ],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Hymn-like strum with a steady, reverent feel.",
+      "lyrics": "When I [C]find myself in [G]times of trouble\n[Am]Mother Mary [F]comes to me\n[C]Speaking words of [G]wisdom let it [F]be [C]\n\nAnd [C]in my hour of [G]darkness\nShe is [Am]standing right in [F]front of me\n[C]Speaking words of [G]wisdom let it [F]be [C]\n\nLet it [Am]be let it [G]be\nLet it [F]be let it [C]be\n[C]Whisper words of [G]wisdom let it [F]be [C]\n\nAnd [C]when the broken [G]hearted people\n[Am]Living in the [F]world agree\n[C]There will be an [G]answer let it [F]be [C]\n\nFor [C]though they may be [G]parted\nThere is [Am]still a chance that [F]they will see\n[C]There will be an [G]answer let it [F]be [C]\n\nLet it [Am]be let it [G]be\nLet it [F]be let it [C]be\n[C]There will be an [G]answer let it [F]be [C]"
+    },
+    "medium": {
+      "id": "let-it-be-the-beatles-medium",
+      "title": "Let It Be",
+      "artist": "The Beatles",
+      "level": "medium",
+      "chords": [
+        { "name": "Cmaj7", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "G7", "frets": [0, 2, 1, 2], "fingers": [0, 2, 1, 3] },
+        { "name": "Am7", "frets": [0, 0, 0, 0], "fingers": [0, 0, 0, 0] },
+        { "name": "Fmaj7", "frets": [2, 4, 1, 0], "fingers": [2, 4, 1, 0] },
+        { "name": "Em7", "frets": [0, 2, 0, 2], "fingers": [0, 1, 0, 2] },
+        { "name": "Dm7", "frets": [2, 2, 1, 3], "fingers": [2, 2, 1, 3] }
+      ],
+      "strummingPattern": "D DU UDU",
+      "strummingDescription": "Gospel-tinged strum with gentle syncopation and dynamic swells.",
+      "lyrics": "When I [Cmaj7]find myself in [G7]times of trouble\n[Am7]Mother Mary [Fmaj7]comes to me\n[Cmaj7]Speaking words of [G7]wisdom let it [Fmaj7]be [Cmaj7]\n\nAnd [Cmaj7]in my hour of [G7]darkness\nShe is [Am7]standing right in [Fmaj7]front of me\n[Cmaj7]Speaking words of [G7]wisdom let it [Fmaj7]be [Cmaj7]\n\nLet it [Am7]be let it [Em7]be\nLet it [Fmaj7]be let it [Cmaj7]be\n[Cmaj7]Whisper words of [G7]wisdom let it [Fmaj7]be [Cmaj7]\n\nAnd [Cmaj7]when the broken [G7]hearted people\n[Am7]Living in the [Fmaj7]world agree\n[Cmaj7]There will be an [G7]answer let it [Fmaj7]be [Cmaj7]\n\nLet it [Am7]be let it [Em7]be\nLet it [Fmaj7]be let it [Cmaj7]be\n[Cmaj7]There will be an [G7]answer let it [Fmaj7]be [Cmaj7]"
+    },
+    "advanced": {
+      "id": "let-it-be-the-beatles-advanced",
+      "title": "Let It Be",
+      "artist": "The Beatles",
+      "level": "advanced",
+      "chords": [
+        { "name": "Cmaj9", "frets": [0, 0, 0, 2], "fingers": [0, 0, 0, 2] },
+        { "name": "G13", "frets": [0, 2, 1, 4], "fingers": [0, 2, 1, 4] },
+        { "name": "Am9", "frets": [2, 0, 0, 3], "fingers": [1, 0, 0, 3] },
+        { "name": "Fmaj9", "frets": [2, 4, 0, 0], "fingers": [1, 3, 0, 0] },
+        { "name": "Em9", "frets": [0, 2, 0, 2], "fingers": [0, 1, 0, 2] },
+        { "name": "Dm9", "frets": [2, 2, 1, 3], "fingers": [2, 2, 1, 4] },
+        { "name": "Bb6", "frets": [3, 2, 1, 0], "fingers": [3, 2, 1, 0] }
+      ],
+      "strummingPattern": "D x U U x U D U",
+      "strummingDescription": "Gospel-jazz feel with ghost strums and dynamic expression throughout.",
+      "lyrics": "When I [Cmaj9]find myself in [G13]times of trouble\n[Am9]Mother Mary [Fmaj9]comes to me\n[Cmaj9]Speaking words of [G13]wisdom let it [Fmaj9]be [Cmaj9]\n\nAnd [Cmaj9]in my hour of [G13]darkness\nShe is [Am9]standing right in [Fmaj9]front of me\n[Cmaj9]Speaking words of [G13]wisdom let it [Fmaj9]be [Cmaj9]\n\nLet it [Am9]be let it [Em9]be\nLet it [Fmaj9]be let it [Cmaj9]be\n[Cmaj9]Whisper words of [G13]wisdom let it [Fmaj9]be [Bb6] [Cmaj9]\n\nAnd [Cmaj9]when the broken [G13]hearted people\n[Am9]Living in the [Fmaj9]world agree\n[Cmaj9]There will be an [G13]answer let it [Fmaj9]be [Cmaj9]\n\nLet it [Am9]be let it [Em9]be\nLet it [Fmaj9]be let it [Dm9]be\n[Cmaj9]There will be an [G13]answer let it [Fmaj9]be [Bb6] [Cmaj9]"
+    }
+  },
+  {
+    "id": "hallelujah-leonard-cohen",
+    "title": "Hallelujah",
+    "artist": "Leonard Cohen",
+    "easy": {
+      "id": "hallelujah-leonard-cohen-easy",
+      "title": "Hallelujah",
+      "artist": "Leonard Cohen",
+      "level": "easy",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Hallelujah\n[Am]by Leonard Cohen"
+    },
+    "medium": {
+      "id": "hallelujah-leonard-cohen-medium",
+      "title": "Hallelujah",
+      "artist": "Leonard Cohen",
+      "level": "medium",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Hallelujah\n[Am]by Leonard Cohen"
+    },
+    "advanced": {
+      "id": "hallelujah-leonard-cohen-advanced",
+      "title": "Hallelujah",
+      "artist": "Leonard Cohen",
+      "level": "advanced",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Hallelujah\n[Am]by Leonard Cohen"
+    }
+  },
+  {
+    "id": "you-are-my-sunshine-traditional",
+    "title": "You Are My Sunshine",
+    "artist": "Traditional",
+    "easy": {
+      "id": "you-are-my-sunshine-traditional-easy",
+      "title": "You Are My Sunshine",
+      "artist": "Traditional",
+      "level": "easy",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]You Are My Sunshine\n[Am]by Traditional"
+    },
+    "medium": {
+      "id": "you-are-my-sunshine-traditional-medium",
+      "title": "You Are My Sunshine",
+      "artist": "Traditional",
+      "level": "medium",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]You Are My Sunshine\n[Am]by Traditional"
+    },
+    "advanced": {
+      "id": "you-are-my-sunshine-traditional-advanced",
+      "title": "You Are My Sunshine",
+      "artist": "Traditional",
+      "level": "advanced",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]You Are My Sunshine\n[Am]by Traditional"
+    }
+  },
+  {
+    "id": "wonderwall-oasis",
+    "title": "Wonderwall",
+    "artist": "Oasis",
+    "easy": {
+      "id": "wonderwall-oasis-easy",
+      "title": "Wonderwall",
+      "artist": "Oasis",
+      "level": "easy",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Wonderwall\n[Am]by Oasis"
+    },
+    "medium": {
+      "id": "wonderwall-oasis-medium",
+      "title": "Wonderwall",
+      "artist": "Oasis",
+      "level": "medium",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Wonderwall\n[Am]by Oasis"
+    },
+    "advanced": {
+      "id": "wonderwall-oasis-advanced",
+      "title": "Wonderwall",
+      "artist": "Oasis",
+      "level": "advanced",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Wonderwall\n[Am]by Oasis"
+    }
+  },
+  {
+    "id": "no-woman-no-cry-bob-marley",
+    "title": "No Woman No Cry",
+    "artist": "Bob Marley",
+    "easy": {
+      "id": "no-woman-no-cry-bob-marley-easy",
+      "title": "No Woman No Cry",
+      "artist": "Bob Marley",
+      "level": "easy",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]No Woman No Cry\n[Am]by Bob Marley"
+    },
+    "medium": {
+      "id": "no-woman-no-cry-bob-marley-medium",
+      "title": "No Woman No Cry",
+      "artist": "Bob Marley",
+      "level": "medium",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]No Woman No Cry\n[Am]by Bob Marley"
+    },
+    "advanced": {
+      "id": "no-woman-no-cry-bob-marley-advanced",
+      "title": "No Woman No Cry",
+      "artist": "Bob Marley",
+      "level": "advanced",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]No Woman No Cry\n[Am]by Bob Marley"
+    }
+  },
+  {
+    "id": "what-a-wonderful-world-louis-armstrong",
+    "title": "What a Wonderful World",
+    "artist": "Louis Armstrong",
+    "easy": {
+      "id": "what-a-wonderful-world-louis-armstrong-easy",
+      "title": "What a Wonderful World",
+      "artist": "Louis Armstrong",
+      "level": "easy",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]What a Wonderful World\n[Am]by Louis Armstrong"
+    },
+    "medium": {
+      "id": "what-a-wonderful-world-louis-armstrong-medium",
+      "title": "What a Wonderful World",
+      "artist": "Louis Armstrong",
+      "level": "medium",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]What a Wonderful World\n[Am]by Louis Armstrong"
+    },
+    "advanced": {
+      "id": "what-a-wonderful-world-louis-armstrong-advanced",
+      "title": "What a Wonderful World",
+      "artist": "Louis Armstrong",
+      "level": "advanced",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]What a Wonderful World\n[Am]by Louis Armstrong"
+    }
+  },
+  {
+    "id": "banana-pancakes-jack-johnson",
+    "title": "Banana Pancakes",
+    "artist": "Jack Johnson",
+    "easy": {
+      "id": "banana-pancakes-jack-johnson-easy",
+      "title": "Banana Pancakes",
+      "artist": "Jack Johnson",
+      "level": "easy",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Banana Pancakes\n[Am]by Jack Johnson"
+    },
+    "medium": {
+      "id": "banana-pancakes-jack-johnson-medium",
+      "title": "Banana Pancakes",
+      "artist": "Jack Johnson",
+      "level": "medium",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Banana Pancakes\n[Am]by Jack Johnson"
+    },
+    "advanced": {
+      "id": "banana-pancakes-jack-johnson-advanced",
+      "title": "Banana Pancakes",
+      "artist": "Jack Johnson",
+      "level": "advanced",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Banana Pancakes\n[Am]by Jack Johnson"
+    }
+  },
+  {
+    "id": "better-together-jack-johnson",
+    "title": "Better Together",
+    "artist": "Jack Johnson",
+    "easy": {
+      "id": "better-together-jack-johnson-easy",
+      "title": "Better Together",
+      "artist": "Jack Johnson",
+      "level": "easy",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Better Together\n[Am]by Jack Johnson"
+    },
+    "medium": {
+      "id": "better-together-jack-johnson-medium",
+      "title": "Better Together",
+      "artist": "Jack Johnson",
+      "level": "medium",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Better Together\n[Am]by Jack Johnson"
+    },
+    "advanced": {
+      "id": "better-together-jack-johnson-advanced",
+      "title": "Better Together",
+      "artist": "Jack Johnson",
+      "level": "advanced",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Better Together\n[Am]by Jack Johnson"
+    }
+  },
+  {
+    "id": "la-vie-en-rose-edith-piaf",
+    "title": "La Vie En Rose",
+    "artist": "Edith Piaf",
+    "easy": {
+      "id": "la-vie-en-rose-edith-piaf-easy",
+      "title": "La Vie En Rose",
+      "artist": "Edith Piaf",
+      "level": "easy",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]La Vie En Rose\n[Am]by Edith Piaf"
+    },
+    "medium": {
+      "id": "la-vie-en-rose-edith-piaf-medium",
+      "title": "La Vie En Rose",
+      "artist": "Edith Piaf",
+      "level": "medium",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]La Vie En Rose\n[Am]by Edith Piaf"
+    },
+    "advanced": {
+      "id": "la-vie-en-rose-edith-piaf-advanced",
+      "title": "La Vie En Rose",
+      "artist": "Edith Piaf",
+      "level": "advanced",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]La Vie En Rose\n[Am]by Edith Piaf"
+    }
+  },
+  {
+    "id": "hey-jude-the-beatles",
+    "title": "Hey Jude",
+    "artist": "The Beatles",
+    "easy": {
+      "id": "hey-jude-the-beatles-easy",
+      "title": "Hey Jude",
+      "artist": "The Beatles",
+      "level": "easy",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Hey Jude\n[Am]by The Beatles"
+    },
+    "medium": {
+      "id": "hey-jude-the-beatles-medium",
+      "title": "Hey Jude",
+      "artist": "The Beatles",
+      "level": "medium",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Hey Jude\n[Am]by The Beatles"
+    },
+    "advanced": {
+      "id": "hey-jude-the-beatles-advanced",
+      "title": "Hey Jude",
+      "artist": "The Beatles",
+      "level": "advanced",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Hey Jude\n[Am]by The Beatles"
+    }
+  },
+  {
+    "id": "imagine-john-lennon",
+    "title": "Imagine",
+    "artist": "John Lennon",
+    "easy": {
+      "id": "imagine-john-lennon-easy",
+      "title": "Imagine",
+      "artist": "John Lennon",
+      "level": "easy",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Imagine\n[Am]by John Lennon"
+    },
+    "medium": {
+      "id": "imagine-john-lennon-medium",
+      "title": "Imagine",
+      "artist": "John Lennon",
+      "level": "medium",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Imagine\n[Am]by John Lennon"
+    },
+    "advanced": {
+      "id": "imagine-john-lennon-advanced",
+      "title": "Imagine",
+      "artist": "John Lennon",
+      "level": "advanced",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Imagine\n[Am]by John Lennon"
+    }
+  },
+  {
+    "id": "have-you-ever-seen-the-rain-ccr",
+    "title": "Have You Ever Seen the Rain",
+    "artist": "CCR",
+    "easy": {
+      "id": "have-you-ever-seen-the-rain-ccr-easy",
+      "title": "Have You Ever Seen the Rain",
+      "artist": "CCR",
+      "level": "easy",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Have You Ever Seen the Rain\n[Am]by CCR"
+    },
+    "medium": {
+      "id": "have-you-ever-seen-the-rain-ccr-medium",
+      "title": "Have You Ever Seen the Rain",
+      "artist": "CCR",
+      "level": "medium",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Have You Ever Seen the Rain\n[Am]by CCR"
+    },
+    "advanced": {
+      "id": "have-you-ever-seen-the-rain-ccr-advanced",
+      "title": "Have You Ever Seen the Rain",
+      "artist": "CCR",
+      "level": "advanced",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Have You Ever Seen the Rain\n[Am]by CCR"
+    }
+  },
+  {
+    "id": "house-of-the-rising-sun-the-animals",
+    "title": "House of the Rising Sun",
+    "artist": "The Animals",
+    "easy": {
+      "id": "house-of-the-rising-sun-the-animals-easy",
+      "title": "House of the Rising Sun",
+      "artist": "The Animals",
+      "level": "easy",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]House of the Rising Sun\n[Am]by The Animals"
+    },
+    "medium": {
+      "id": "house-of-the-rising-sun-the-animals-medium",
+      "title": "House of the Rising Sun",
+      "artist": "The Animals",
+      "level": "medium",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]House of the Rising Sun\n[Am]by The Animals"
+    },
+    "advanced": {
+      "id": "house-of-the-rising-sun-the-animals-advanced",
+      "title": "House of the Rising Sun",
+      "artist": "The Animals",
+      "level": "advanced",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]House of the Rising Sun\n[Am]by The Animals"
+    }
+  },
+  {
+    "id": "a-thousand-years-christina-perri",
+    "title": "A Thousand Years",
+    "artist": "Christina Perri",
+    "easy": {
+      "id": "a-thousand-years-christina-perri-easy",
+      "title": "A Thousand Years",
+      "artist": "Christina Perri",
+      "level": "easy",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]A Thousand Years\n[Am]by Christina Perri"
+    },
+    "medium": {
+      "id": "a-thousand-years-christina-perri-medium",
+      "title": "A Thousand Years",
+      "artist": "Christina Perri",
+      "level": "medium",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]A Thousand Years\n[Am]by Christina Perri"
+    },
+    "advanced": {
+      "id": "a-thousand-years-christina-perri-advanced",
+      "title": "A Thousand Years",
+      "artist": "Christina Perri",
+      "level": "advanced",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]A Thousand Years\n[Am]by Christina Perri"
+    }
+  },
+  {
+    "id": "creep-radiohead",
+    "title": "Creep",
+    "artist": "Radiohead",
+    "easy": {
+      "id": "creep-radiohead-easy",
+      "title": "Creep",
+      "artist": "Radiohead",
+      "level": "easy",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Creep\n[Am]by Radiohead"
+    },
+    "medium": {
+      "id": "creep-radiohead-medium",
+      "title": "Creep",
+      "artist": "Radiohead",
+      "level": "medium",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Creep\n[Am]by Radiohead"
+    },
+    "advanced": {
+      "id": "creep-radiohead-advanced",
+      "title": "Creep",
+      "artist": "Radiohead",
+      "level": "advanced",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Creep\n[Am]by Radiohead"
+    }
+  },
+  {
+    "id": "island-in-the-sun-weezer",
+    "title": "Island in the Sun",
+    "artist": "Weezer",
+    "easy": {
+      "id": "island-in-the-sun-weezer-easy",
+      "title": "Island in the Sun",
+      "artist": "Weezer",
+      "level": "easy",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Island in the Sun\n[Am]by Weezer"
+    },
+    "medium": {
+      "id": "island-in-the-sun-weezer-medium",
+      "title": "Island in the Sun",
+      "artist": "Weezer",
+      "level": "medium",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Island in the Sun\n[Am]by Weezer"
+    },
+    "advanced": {
+      "id": "island-in-the-sun-weezer-advanced",
+      "title": "Island in the Sun",
+      "artist": "Weezer",
+      "level": "advanced",
+      "chords": [],
+      "strummingPattern": "D D U U D U",
+      "strummingDescription": "Basic strum pattern",
+      "lyrics": "[C]Island in the Sun\n[Am]by Weezer"
+    }
+  }
+]
