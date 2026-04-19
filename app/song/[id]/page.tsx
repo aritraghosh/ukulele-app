@@ -132,52 +132,45 @@ export default function SongPage() {
 
       {/* Song header */}
       <div className="bg-gradient-to-r from-primary/10 via-chart-5/15 to-accent/30 rounded-2xl p-6 sm:p-8 space-y-5">
-        <div>
-          <h1 className="text-3xl font-extrabold tracking-tight">{song.title}</h1>
-          <p className="text-lg text-muted-foreground">{song.artist}</p>
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <h1 className="text-3xl font-extrabold tracking-tight">{song.title}</h1>
+            <p className="text-lg text-muted-foreground">{song.artist}</p>
+          </div>
+          <div className="flex items-center gap-2">
+            <Button variant="outline" size="sm" onClick={handleFavorite} className="rounded-full">
+              <Heart className={`mr-1.5 h-4 w-4 ${fav ? 'fill-pink-500 text-pink-500' : ''}`} />
+              {fav ? 'Saved' : 'Save'}
+            </Button>
+            <Button variant="outline" size="sm" onClick={handleDownload} className="rounded-full">
+              <Download className="mr-1.5 h-4 w-4" />
+              Download
+            </Button>
+            <div className="w-px h-6 bg-border mx-1" />
+            <button
+              onClick={() => handleReaction('like')}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-semibold transition-all ${
+                reaction === 'like'
+                  ? 'bg-emerald-500 text-white shadow-md scale-105'
+                  : 'bg-white/60 border border-border hover:bg-white/90 text-muted-foreground'
+              }`}
+            >
+              <ThumbsUp className="h-4 w-4" />
+            </button>
+            <button
+              onClick={() => handleReaction('dislike')}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-semibold transition-all ${
+                reaction === 'dislike'
+                  ? 'bg-orange-500 text-white shadow-md scale-105'
+                  : 'bg-white/60 border border-border hover:bg-white/90 text-muted-foreground'
+              }`}
+            >
+              <ThumbsDown className="h-4 w-4" />
+            </button>
+          </div>
         </div>
 
         <LevelSelector value={level} onChange={setLevel} />
-
-        {/* All actions in one row */}
-        <div className="flex items-center gap-2 flex-wrap">
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={handleFavorite}
-            className="rounded-full"
-          >
-            <Heart className={`mr-1.5 h-4 w-4 ${fav ? 'fill-pink-500 text-pink-500' : ''}`} />
-            {fav ? 'Saved' : 'Save'}
-          </Button>
-          <Button variant="outline" size="sm" onClick={handleDownload} className="rounded-full">
-            <Download className="mr-1.5 h-4 w-4" />
-            Download
-          </Button>
-          <div className="w-px h-6 bg-border mx-1" />
-          <button
-            onClick={() => handleReaction('like')}
-            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-all ${
-              reaction === 'like'
-                ? 'bg-emerald-500 text-white shadow-md scale-105'
-                : 'bg-white/60 border border-border hover:bg-white/90 text-muted-foreground'
-            }`}
-          >
-            <ThumbsUp className="h-4 w-4" />
-            Like
-          </button>
-          <button
-            onClick={() => handleReaction('dislike')}
-            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-all ${
-              reaction === 'dislike'
-                ? 'bg-orange-500 text-white shadow-md scale-105'
-                : 'bg-white/60 border border-border hover:bg-white/90 text-muted-foreground'
-            }`}
-          >
-            <ThumbsDown className="h-4 w-4" />
-            Dislike
-          </button>
-        </div>
       </div>
 
       {/* Chords */}
