@@ -36,7 +36,7 @@ export default function Home() {
           🌺 Song Library 🌴
         </h1>
         <p className="text-muted-foreground text-lg">
-          {getAllSongs().length} songs with chords at every level — grab your uke and strum along!
+          {getAllSongs().length}+ songs with chords at every level — grab your uke and strum along!
         </p>
       </div>
 

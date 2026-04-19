@@ -10,7 +10,7 @@ export default function AboutPage() {
 
       <div className="bg-gradient-to-r from-primary/10 via-chart-5/10 to-accent/20 rounded-2xl p-8 space-y-4">
         <p className="text-lg leading-relaxed">
-          StrumAlong is a free ukulele practice app with <strong>1,100+ songs</strong> across
+          StrumAlong is a free ukulele practice app with <strong>1,000+ songs</strong> across
           every genre — pop, rock, folk, country, jazz, reggae, Disney, musical theatre, and more.
         </p>
         <p className="text-lg leading-relaxed">
