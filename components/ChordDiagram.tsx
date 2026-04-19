@@ -27,7 +27,7 @@ export function ChordDiagram({ chord, size = 100 }: ChordDiagramProps) {
   return (
     <div className="flex flex-col items-center gap-1">
       <span className="text-sm font-bold">{chord.name}</span>
-      <svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
+      <svg width={w} height={h} viewBox={`0 0 ${w} ${h}`} role="img" aria-label={`${chord.name} chord diagram`}>
         {/* Nut or fret number */}
         {showNut ? (
           <rect

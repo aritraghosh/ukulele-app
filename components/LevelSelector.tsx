@@ -9,14 +9,14 @@ interface LevelSelectorProps {
 }
 
 const levels: { value: Level; label: string; emoji: string; color: string }[] = [
-  { value: 'easy', label: 'Easy', emoji: '🏝️', color: 'bg-emerald-500 text-white hover:bg-emerald-600' },
-  { value: 'medium', label: 'Medium', emoji: '🌊', color: 'bg-cyan-600 text-white hover:bg-cyan-700' },
-  { value: 'advanced', label: 'Advanced', emoji: '🌋', color: 'bg-orange-600 text-white hover:bg-orange-700' },
+  { value: 'easy', label: 'Easy', emoji: '🏝️', color: 'bg-chart-4 text-white hover:bg-chart-4/80' },
+  { value: 'medium', label: 'Medium', emoji: '🌊', color: 'bg-chart-2 text-white hover:bg-chart-2/80' },
+  { value: 'advanced', label: 'Advanced', emoji: '🌋', color: 'bg-chart-5 text-white hover:bg-chart-5/80' },
 ];
 
 export function LevelSelector({ value, onChange, disabled }: LevelSelectorProps) {
   return (
-    <div className="flex gap-2">
+    <div className="flex gap-2" role="radiogroup" aria-label="Difficulty level">
       {levels.map((level) => (
         <button
           key={level.value}

@@ -6,21 +6,21 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Heart } from 'lucide-react';
 
 const ACCENT_COLORS = [
-  'from-orange-400/20 to-rose-300/10',
-  'from-cyan-400/20 to-teal-300/10',
-  'from-amber-300/20 to-yellow-300/10',
-  'from-emerald-400/20 to-green-300/10',
-  'from-orange-300/20 to-amber-300/10',
-  'from-sky-400/20 to-cyan-300/10',
+  'from-primary/15 to-chart-5/10',
+  'from-chart-2/15 to-chart-4/10',
+  'from-accent/20 to-chart-3/10',
+  'from-chart-4/15 to-chart-2/10',
+  'from-chart-5/15 to-accent/10',
+  'from-chart-1/15 to-primary/10',
 ];
 
 const BORDER_COLORS = [
-  'hover:border-orange-300',
-  'hover:border-cyan-300',
-  'hover:border-amber-300',
-  'hover:border-emerald-300',
-  'hover:border-orange-300',
-  'hover:border-sky-300',
+  'hover:border-primary/40',
+  'hover:border-chart-2/40',
+  'hover:border-accent/40',
+  'hover:border-chart-4/40',
+  'hover:border-chart-5/40',
+  'hover:border-chart-1/40',
 ];
 
 interface SongCardProps {
@@ -35,14 +35,14 @@ export function SongCard({ song, isFavorite, colorIndex = 0 }: SongCardProps) {
 
   return (
     <Link href={`/song/${song.id}`}>
-      <Card className={`cursor-pointer hover:shadow-xl transition-all duration-300 h-full border-2 border-transparent ${BORDER_COLORS[ci]} hover:-translate-y-1 bg-gradient-to-br ${ACCENT_COLORS[ci]}`}>
-        <CardHeader className="pb-2">
+      <Card className={`cursor-pointer hover:shadow-xl transition-all duration-300 h-full flex flex-col border-2 border-transparent ${BORDER_COLORS[ci]} hover:-translate-y-1 bg-gradient-to-br ${ACCENT_COLORS[ci]}`}>
+        <CardHeader className="pb-2 flex-1">
           <div className="flex items-start justify-between">
             <div>
               <CardTitle className="text-base font-bold">{song.title}</CardTitle>
               <p className="text-sm text-muted-foreground">{song.artist}</p>
             </div>
-            {isFavorite && <Heart className="h-4 w-4 fill-pink-500 text-pink-500" />}
+            {isFavorite && <Heart className="h-4 w-4 fill-primary text-primary" />}
           </div>
         </CardHeader>
         <CardContent>

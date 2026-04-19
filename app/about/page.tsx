@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <main className="max-w-3xl mx-auto px-4 py-12 space-y-8">
+    <main className="max-w-3xl mx-auto px-4 py-8 space-y-8">
       <div className="text-center space-y-4">
         <h1 className="text-4xl font-extrabold tracking-tight bg-gradient-to-r from-primary via-chart-5 to-chart-3 bg-clip-text text-transparent">
           About StrumAlong

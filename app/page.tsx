@@ -29,7 +29,7 @@ export default function Home() {
   const paginated = songs.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
   return (
-    <main className="max-w-5xl mx-auto px-4 py-10 space-y-8">
+    <main className="max-w-5xl mx-auto px-4 py-8 space-y-8">
       {/* Hero */}
       <div className="text-center space-y-3">
         <h1 className="text-4xl font-extrabold tracking-tight bg-gradient-to-r from-primary via-chart-5 to-chart-3 bg-clip-text text-transparent">

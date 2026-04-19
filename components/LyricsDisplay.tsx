@@ -1,7 +1,5 @@
 'use client';
 
-import { Song } from '@/types';
-
 interface LyricsDisplayProps {
   lyrics: string;
 }

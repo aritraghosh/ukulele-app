@@ -31,6 +31,7 @@ export function NavBar() {
         <nav className="flex items-center gap-1">
           <Link
             href="/"
+            aria-current={pathname === '/' ? 'page' : undefined}
             className={`px-4 py-2 rounded-full text-sm font-semibold transition-all ${
               pathname === '/'
                 ? 'bg-white/20 backdrop-blur-sm'
@@ -41,6 +42,7 @@ export function NavBar() {
           </Link>
           <Link
             href="/requests"
+            aria-current={pathname === '/requests' ? 'page' : undefined}
             className={`px-4 py-2 rounded-full text-sm font-semibold transition-all flex items-center gap-1.5 ${
               pathname === '/requests'
                 ? 'bg-white/20 backdrop-blur-sm'
@@ -52,6 +54,7 @@ export function NavBar() {
           </Link>
           <Link
             href="/about"
+            aria-current={pathname === '/about' ? 'page' : undefined}
             className={`px-4 py-2 rounded-full text-sm font-semibold transition-all flex items-center gap-1.5 ${
               pathname === '/about'
                 ? 'bg-white/20 backdrop-blur-sm'

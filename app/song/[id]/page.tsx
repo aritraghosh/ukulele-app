@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import { Level, Song } from '@/types';
 import { getSongById, getSongAtLevel } from '@/lib/songs';
-import { toggleFavorite, isFavorite, getReaction, setReaction } from '@/lib/storage';
+import { toggleFavorite, isFavorite, getReaction, setReaction, getVoterId } from '@/lib/storage';
 import { ChordDiagram } from '@/components/ChordDiagram';
 import { StrummingPattern } from '@/components/StrummingPattern';
 import { LyricsDisplay } from '@/components/LyricsDisplay';
@@ -20,6 +20,8 @@ export default function SongPage() {
   const [level, setLevel] = useState<Level>('easy');
   const [fav, setFav] = useState(false);
   const [reaction, setReactionState] = useState<'like' | 'dislike' | null>(null);
+  const [likes, setLikes] = useState(0);
+  const [dislikes, setDislikes] = useState(0);
   const [comment, setComment] = useState('');
   const [commentSent, setCommentSent] = useState(false);
   const [sendingComment, setSendingComment] = useState(false);
@@ -30,6 +32,16 @@ export default function SongPage() {
     if (entry) {
       setFav(isFavorite(entry.id));
       setReactionState(getReaction(entry.id));
+      // Fetch reaction counts from API
+      const voterId = getVoterId();
+      fetch(`/api/songs/${entry.id}/react?voterId=${voterId}`)
+        .then((r) => r.json())
+        .then((data) => {
+          setLikes(data.likes || 0);
+          setDislikes(data.dislikes || 0);
+          if (data.userReaction) setReactionState(data.userReaction);
+        })
+        .catch(() => {});
     }
   }, [entry]);
 
@@ -57,19 +69,35 @@ export default function SongPage() {
     const newReaction = current === type ? null : type;
     setReaction(entry!.id, newReaction);
     setReactionState(newReaction);
-    // Send reaction to creator via email
-    if (newReaction) {
-      fetch('https://formsubmit.co/ajax/aritrag94@gmail.com', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({
-          _subject: `StrumAlong ${newReaction === 'like' ? '👍 Like' : '👎 Dislike'}: ${entry!.title} by ${entry!.artist}`,
-          Song: `${entry!.title} - ${entry!.artist}`,
-          Reaction: newReaction,
-          _template: 'table',
-        }),
-      }).catch(() => {});
+    // Optimistic update
+    if (current === type) {
+      // toggling off
+      if (type === 'like') setLikes((l) => Math.max(0, l - 1));
+      else setDislikes((d) => Math.max(0, d - 1));
+    } else {
+      // switching or adding
+      if (type === 'like') {
+        setLikes((l) => l + 1);
+        if (current === 'dislike') setDislikes((d) => Math.max(0, d - 1));
+      } else {
+        setDislikes((d) => d + 1);
+        if (current === 'like') setLikes((l) => Math.max(0, l - 1));
+      }
     }
+    // Persist to Supabase
+    fetch(`/api/songs/${entry!.id}/react`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ voterId: getVoterId(), reaction: type }),
+    })
+      .then((r) => r.json())
+      .then((data) => {
+        setLikes(data.likes || 0);
+        setDislikes(data.dislikes || 0);
+        setReactionState(data.userReaction);
+        setReaction(entry!.id, data.userReaction);
+      })
+      .catch(() => {});
   }
 
   async function handleComment(e: React.FormEvent) {
@@ -139,7 +167,7 @@ export default function SongPage() {
           </div>
           <div className="flex items-center gap-2">
             <Button variant="outline" size="sm" onClick={handleFavorite} className="rounded-full">
-              <Heart className={`mr-1.5 h-4 w-4 ${fav ? 'fill-pink-500 text-pink-500' : ''}`} />
+              <Heart className={`mr-1.5 h-4 w-4 ${fav ? 'fill-primary text-primary' : ''}`} />
               {fav ? 'Saved' : 'Save'}
             </Button>
             <Button variant="outline" size="sm" onClick={handleDownload} className="rounded-full">
@@ -149,23 +177,29 @@ export default function SongPage() {
             <div className="w-px h-6 bg-border mx-1" />
             <button
               onClick={() => handleReaction('like')}
+              aria-pressed={reaction === 'like'}
+              aria-label="Like this song"
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-semibold transition-all ${
                 reaction === 'like'
-                  ? 'bg-emerald-500 text-white shadow-md scale-105'
-                  : 'bg-white/60 border border-border hover:bg-white/90 text-muted-foreground'
+                  ? 'bg-chart-4 text-white shadow-md scale-105'
+                  : 'bg-card border border-border hover:bg-muted text-muted-foreground'
               }`}
             >
               <ThumbsUp className="h-4 w-4" />
+              {likes > 0 && <span>{likes}</span>}
             </button>
             <button
               onClick={() => handleReaction('dislike')}
+              aria-pressed={reaction === 'dislike'}
+              aria-label="Dislike this song"
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-semibold transition-all ${
                 reaction === 'dislike'
-                  ? 'bg-orange-500 text-white shadow-md scale-105'
-                  : 'bg-white/60 border border-border hover:bg-white/90 text-muted-foreground'
+                  ? 'bg-chart-5 text-white shadow-md scale-105'
+                  : 'bg-card border border-border hover:bg-muted text-muted-foreground'
               }`}
             >
               <ThumbsDown className="h-4 w-4" />
+              {dislikes > 0 && <span>{dislikes}</span>}
             </button>
           </div>
         </div>
