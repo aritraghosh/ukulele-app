@@ -1,5 +1,6 @@
 const FAVORITES_KEY = 'ukulele-favorites';
 const VOTER_KEY = 'ukulele-voter-id';
+const REACTIONS_KEY = 'ukulele-reactions';
 
 export function getFavorites(): string[] {
   if (typeof window === 'undefined') return [];
@@ -33,4 +34,27 @@ export function getVoterId(): string {
     localStorage.setItem(VOTER_KEY, id);
   }
   return id;
+}
+
+// Reactions: 'like' | 'dislike' | null per song
+type Reaction = 'like' | 'dislike' | null;
+
+function getReactions(): Record<string, Reaction> {
+  if (typeof window === 'undefined') return {};
+  const data = localStorage.getItem(REACTIONS_KEY);
+  return data ? JSON.parse(data) : {};
+}
+
+export function getReaction(songId: string): Reaction {
+  return getReactions()[songId] || null;
+}
+
+export function setReaction(songId: string, reaction: Reaction): void {
+  const reactions = getReactions();
+  if (reaction === null) {
+    delete reactions[songId];
+  } else {
+    reactions[songId] = reaction;
+  }
+  localStorage.setItem(REACTIONS_KEY, JSON.stringify(reactions));
 }

@@ -4,14 +4,14 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import { Level, Song } from '@/types';
 import { getSongById, getSongAtLevel } from '@/lib/songs';
-import { toggleFavorite, isFavorite } from '@/lib/storage';
+import { toggleFavorite, isFavorite, getReaction, setReaction } from '@/lib/storage';
 import { ChordDiagram } from '@/components/ChordDiagram';
 import { StrummingPattern } from '@/components/StrummingPattern';
 import { LyricsDisplay } from '@/components/LyricsDisplay';
 import { LevelSelector } from '@/components/LevelSelector';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Heart, Download, ArrowLeft } from 'lucide-react';
+import { Heart, Download, ArrowLeft, ThumbsUp, ThumbsDown, Send } from 'lucide-react';
 import Link from 'next/link';
 
 export default function SongPage() {
@@ -19,11 +19,18 @@ export default function SongPage() {
   const id = params.id as string;
   const [level, setLevel] = useState<Level>('easy');
   const [fav, setFav] = useState(false);
+  const [reaction, setReactionState] = useState<'like' | 'dislike' | null>(null);
+  const [comment, setComment] = useState('');
+  const [commentSent, setCommentSent] = useState(false);
+  const [sendingComment, setSendingComment] = useState(false);
 
   const entry = getSongById(id);
 
   useEffect(() => {
-    if (entry) setFav(isFavorite(entry.id));
+    if (entry) {
+      setFav(isFavorite(entry.id));
+      setReactionState(getReaction(entry.id));
+    }
   }, [entry]);
 
   if (!entry) {
@@ -43,6 +50,41 @@ export default function SongPage() {
   function handleFavorite() {
     const result = toggleFavorite(entry!.id);
     setFav(result);
+  }
+
+  function handleReaction(type: 'like' | 'dislike') {
+    const current = getReaction(entry!.id);
+    const newReaction = current === type ? null : type;
+    setReaction(entry!.id, newReaction);
+    setReactionState(newReaction);
+  }
+
+  async function handleComment(e: React.FormEvent) {
+    e.preventDefault();
+    if (!comment.trim()) return;
+    setSendingComment(true);
+    try {
+      const res = await fetch('https://formsubmit.co/ajax/aritrag94@gmail.com', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          _subject: `StrumAlong Comment: ${song.title} by ${song.artist}`,
+          Song: `${song.title} - ${song.artist}`,
+          Level: level,
+          Comment: comment,
+          _template: 'table',
+        }),
+      });
+      if (res.ok) {
+        setCommentSent(true);
+        setComment('');
+        setTimeout(() => setCommentSent(false), 4000);
+      }
+    } catch {
+      // silent
+    } finally {
+      setSendingComment(false);
+    }
   }
 
   function handleDownload() {
@@ -98,8 +140,33 @@ export default function SongPage() {
             </Button>
           </div>
         </div>
-        <div className="mt-4">
+        <div className="mt-4 flex items-center justify-between flex-wrap gap-4">
           <LevelSelector value={level} onChange={setLevel} />
+          {/* Like / Dislike */}
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => handleReaction('like')}
+              className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-all ${
+                reaction === 'like'
+                  ? 'bg-emerald-500 text-white shadow-md scale-105'
+                  : 'bg-white/50 hover:bg-white/80 text-muted-foreground'
+              }`}
+            >
+              <ThumbsUp className="h-4 w-4" />
+              Like
+            </button>
+            <button
+              onClick={() => handleReaction('dislike')}
+              className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-all ${
+                reaction === 'dislike'
+                  ? 'bg-orange-500 text-white shadow-md scale-105'
+                  : 'bg-white/50 hover:bg-white/80 text-muted-foreground'
+              }`}
+            >
+              <ThumbsDown className="h-4 w-4" />
+              Dislike
+            </button>
+          </div>
         </div>
       </div>
 
@@ -145,6 +212,42 @@ export default function SongPage() {
           <div className="bg-muted/20 rounded-xl p-6 border border-border/50">
             <LyricsDisplay lyrics={song.lyrics} />
           </div>
+        </CardContent>
+      </Card>
+
+      {/* Comments */}
+      <Card className="border-2 overflow-hidden">
+        <div className="bg-gradient-to-r from-chart-4/10 to-transparent px-6 py-3 border-b">
+          <h3 className="text-sm font-bold uppercase tracking-wider text-chart-4">
+            💬 Leave a Comment
+          </h3>
+        </div>
+        <CardContent className="pt-6">
+          {commentSent ? (
+            <div className="text-center py-4 space-y-2">
+              <p className="text-2xl">🤙</p>
+              <p className="text-sm font-semibold text-chart-4">Mahalo! Your comment has been sent.</p>
+            </div>
+          ) : (
+            <form onSubmit={handleComment} className="flex gap-3">
+              <input
+                type="text"
+                value={comment}
+                onChange={(e) => setComment(e.target.value)}
+                placeholder="Share your thoughts on this song..."
+                required
+                className="flex-1 px-4 py-3 rounded-xl border-2 border-border bg-background focus:border-chart-4 focus:outline-none transition-colors text-sm"
+              />
+              <button
+                type="submit"
+                disabled={sendingComment || !comment.trim()}
+                className="px-5 py-3 rounded-xl bg-chart-4 text-white font-semibold hover:opacity-90 disabled:opacity-40 disabled:cursor-not-allowed transition-opacity flex items-center gap-2"
+              >
+                <Send className="h-4 w-4" />
+                Send
+              </button>
+            </form>
+          )}
         </CardContent>
       </Card>
     </main>
